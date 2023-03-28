@@ -1,1 +1,0 @@
-# Nupat-Internship-test
