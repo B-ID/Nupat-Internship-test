@@ -9,7 +9,7 @@ type Props = {};
 
 export default function Services({}: Props) {
   return (
-    <div className="mb-24">
+    <div className="">
       <div className="h-[504px] relative">
         <img
           className="h-full w-full object-bottom object-cover"
