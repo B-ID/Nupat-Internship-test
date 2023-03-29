@@ -4,6 +4,7 @@ import twitter from "../assets/icons/twitter.svg";
 import facebook from "../assets/icons/facebook.svg";
 import linkedIn from "../assets/icons/linkedIn.svg";
 import SectionTitle from "./SectionTitle";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import Button from "./Button";
 
 type Props = {};
@@ -13,24 +14,35 @@ export default function HeroSection({}: Props) {
     // Home
     <div className="">
       <div className="bg-primary2/25 absolute w-full z-10">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
+        <div className="max-w-[1199.13px] mx-auto flex items-center justify-between">
           {/* Header Links */}
-          <div className="space-x-10 text-white py-4 ">
-            <a href="" className="links">
-              Home
-            </a>
-            <a href="#about" className="links">
-              About
-            </a>
-            <a href="" className="links">
-              Pages
-            </a>
-            <a href="" className="links">
-              Project
-            </a>
-            <a href="" className="links">
-              Contact
-            </a>
+          <div className="text-white list-none flex items-center gap-4 ">
+            <li>
+              <a href="" className="links">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="links">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="" className="links flex items-center gap-2">
+                Pages
+                <ChevronDownIcon className="h-4" />
+              </a>
+            </li>
+            <li>
+              <a href="" className="links">
+                Project
+              </a>
+            </li>
+            <li>
+              <a href="" className="links">
+                Contact
+              </a>
+            </li>
           </div>
 
           {/* Socials */}
@@ -41,7 +53,7 @@ export default function HeroSection({}: Props) {
               <img className="h-8" src={twitter} alt="twitter-icon" />
               <img className="h-8" src={linkedIn} alt="likedIn-icon" />
             </div>
-            <button className="font-medium p-4 bg-white hover:text-white transition hover:bg-primary1">
+            <button className="font-medium p-4 bg-white text-headeing transition hover:bg-primary1">
               Request Qoute
             </button>
           </div>
@@ -55,7 +67,7 @@ export default function HeroSection({}: Props) {
         />
         {/* Hero Description */}
         <div className="absolute top-56 w-full z-20">
-          <div className="text-white max-w-6xl mx-auto">
+          <div className="text-white max-w-[1199.13px] mx-auto">
             <SectionTitle textColor="text-white" background="bg-primary2/25">
               Logistics & Supply Chain Solutions
             </SectionTitle>

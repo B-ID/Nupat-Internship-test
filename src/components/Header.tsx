@@ -10,7 +10,7 @@ type Props = {};
 export default function Header({}: Props) {
   return (
     <nav className="bg-primary2">
-      <div className="text-white flex items-center justify-between h-[160px] max-w-6xl mx-auto">
+      <div className="text-white flex items-center justify-between h-[160px] max-w-[1199.13px] mx-auto">
         <div className="flex-shrink-0 cursor-pointer">
           <img src={logo} alt="logo-img" />
         </div>

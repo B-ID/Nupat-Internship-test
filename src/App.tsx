@@ -2,6 +2,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
+import Transport from "./components/Transport";
 
 function App() {
   return (
@@ -21,14 +22,20 @@ function App() {
         <About />
       </section>
 
-        {/* Services */}
-      <section id="services" className="border-2 border-rod-400">
+      {/* Services */}
+      <section id="services" className="border-2 border-red-400">
         <Services />
       </section>
 
-      <section>{/* Transport accross the world */}</section>
+      {/* Transport accross the world */}
+      <section className="border-2 border-teal-500">
+        <Transport />
+      </section>
 
-      <section>{/* Testimonial */}</section>
+      {/* Testimonial */}
+      <section>
+        
+      </section>
 
       <section>{/* Why choose TransitFlow */}</section>
 

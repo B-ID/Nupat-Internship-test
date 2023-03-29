@@ -13,7 +13,7 @@ export interface IAboutData {
 
 export default function About({}: Props) {
   return (
-    <div className="max-w-6xl flex mx-auto py-[96px]">
+    <div className="max-w-[1199.13px] flex mx-auto py-[96px]">
       <div>
         <SectionTitle
        background="bg-[#f3f3f3]" 

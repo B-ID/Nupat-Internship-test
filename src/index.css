@@ -10,5 +10,11 @@
     .primary-gradient {
         @apply bg-gradient-to-r from-[#ffb629] via-[#ffda56] to-[#ffd7a6] ease-linear 
     }
+    /* .gradient-2 {
+        @apply bg-gradient-to-r from=[text-primary2]
+    } */
+    .secondary-gradient {
+        @apply bg-gradient-to-t from-[#091242] 
+    }
     
 }
