@@ -23,5 +23,7 @@ html {
     .form-input {
         @apply bg-transparent outline-none pl-4 p-2 border border-paragraph focus:border-white transition
     }
-    
+    .custom-img {
+    background-image: url("./assets/Images/heroImg.png");
+    }   
 }

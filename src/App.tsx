@@ -1,16 +1,19 @@
-import About from "./components/About";
-import ContactUs from "./components/ContactUs";
-import ExpertTeam from "./components/ExpertTeam";
-import Features from "./components/Features";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
-import Transport from "./components/Transport";
+import {
+  About,
+  ContactUs,
+  ExpertTeam,
+  Features,
+  Header,
+  HeroSection,
+  Services,
+  Testimonial,
+  Transport,
+} from "./components";
+import Blog from "./components/Blog";
 
 function App() {
   return (
-    <main className="subpixel-antialiased max-w-[1920px] mx-auto">
+    <main className="mx-auto max-w-[1920px] subpixel-antialiased">
       {/* Navbar */}
       <section id="home" className="">
         <Header />
@@ -56,7 +59,10 @@ function App() {
         <ContactUs />
       </section>
 
-      <section>{/* Blog post */}</section>
+      {/* Blog post */}
+      <section>
+        <Blog />
+      </section>
 
       <section>{/* Footer */}</section>
     </main>

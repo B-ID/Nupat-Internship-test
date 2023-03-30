@@ -59,12 +59,14 @@ export default function HeroSection({}: Props) {
           </div>
         </div>
       </div>
-      <div className="relative h-[875px]">
-        <img
+      <div className="relative h-[875px] w-full">
+        {/* <img
           className="object-cover w-full h-full"
           src={heroImg}
           alt="hero-img"
-        />
+        /> */}
+        <div className="w-full h-full bg-fixed bg-no-repeat bg-left-cover custom-img" />
+
         {/* Hero Description */}
         <div className="absolute z-20 w-full top-56">
           <div className="mx-auto max-w-[1199.13px] text-white">
@@ -80,11 +82,9 @@ export default function HeroSection({}: Props) {
               nisl id dapibus finibus, enim <br /> diam interdum nulla, sed
               laoreet risus lectus.{" "}
             </p>
+            
             {/* Reusable button component */}
             <div className="relative inline-flex">
-              {/* <button className="primary-gradient w-[194px] h-[60px] font-medium text-primary2">
-                Explore More
-              </button> */}
               <Button
                 gradient="primary-gradient"
                 textColor="text-primary2"
