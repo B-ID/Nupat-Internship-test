@@ -10,7 +10,6 @@ type Props = {};
 
 export default function Blog({}: Props) {
   return (
-    // <div className='max-w-[948px] mx-auto border-2 border-black'>
     <>
       <div className="mx-auto max-w-[948px]">
         {/* Blog Header */}

@@ -60,12 +60,12 @@ export default function HeroSection({}: Props) {
         </div>
       </div>
       <div className="relative h-[875px] w-full">
-        {/* <img
+        <img
           className="object-cover w-full h-full"
           src={heroImg}
           alt="hero-img"
-        /> */}
-        <div className="w-full h-full bg-fixed bg-no-repeat bg-left-cover custom-img" />
+        />
+        {/* <div className="w-full h-full bg-fixed bg-no-repeat bg-left-cover custom-img" /> */}
 
         {/* Hero Description */}
         <div className="absolute z-20 w-full top-56">

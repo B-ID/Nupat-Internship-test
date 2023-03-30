@@ -22,10 +22,10 @@ export default function ExpertTeam({}: Props) {
             >
                 The Transporters
             </SectionTitle>
-            <h3 className="text-4xl text-heading font-bold mb-10">Meet Expert Team</h3>
+            <h3 className="mb-10 text-4xl font-bold text-heading">Meet Expert Team</h3>
 
         </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between overflow-x-auto">
         {expertData.map((data: IExpertData) => (
         <SingleExpert data={data} />
         ))}

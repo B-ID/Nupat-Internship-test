@@ -41,7 +41,7 @@ export default function Header({}: Props) {
               <p>contact@logistics.com</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="items-center hidden gap-2 md:flex">
             {/* icon */}
             <div className=" bg-[#111c55] p-3 inline-flex rounded-full border border-[#273270]">
               <PhoneIcon className="h-7 text-primary1" />

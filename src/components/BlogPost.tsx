@@ -9,7 +9,7 @@ type Props = {
 
 export default function BlogPost({ imgUrl, title, date, textColor}: Props) {
   return (
-    <div className="flex border-t border-gray-600 pt-[39px]">
+    <div className="flex sm:flex-col lg:flex-row border-t border-gray-600 pt-[39px]">
       {/* Thumbnail */}
 
       <div className="h-[308px] w-[453px] flex-shrink-0">
