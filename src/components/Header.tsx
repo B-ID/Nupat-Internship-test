@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png";
+import logo from "../assets/Images/logo.png";
 import {
   ClockIcon,
   EnvelopeIcon,
@@ -15,7 +15,7 @@ export default function Header({}: Props) {
           <img src={logo} alt="logo-img" />
         </div>
         {/* Details Container */}
-        <div className="text-sm flex gap-10">
+        <div className="flex gap-10 text-sm">
           <div className="flex items-center gap-2">
             {/* icon */}
             <div className=" bg-[#111c55] p-3 inline-flex rounded-full border border-[#273270]">
