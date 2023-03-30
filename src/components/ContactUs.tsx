@@ -21,7 +21,7 @@ export default function ContactUs({}: Props) {
         <div className="flex gap-[88px]">
           {/* Contact details (left) */}
           <div className="w-[353px]">
-            <SectionTitle background="" textColor="text-white">
+            <SectionTitle background="bg-[#e8e8e8]/10" textColor="text-white">
               Contact
             </SectionTitle>
             <h3 className="mb-3 text-4xl font-bold text-white">

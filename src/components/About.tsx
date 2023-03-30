@@ -19,7 +19,7 @@ export default function About({}: Props) {
        background="bg-[#f3f3f3]" 
        textColor="text-heading"
         >
-            What we Do
+            What We Do
             </SectionTitle>
         <h1 className="text-4xl font-bold text-heading">
           Safe & Reliable Cargo Solutions

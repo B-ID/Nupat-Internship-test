@@ -10,6 +10,7 @@ import {
   Transport,
 } from "./components";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -60,11 +61,14 @@ function App() {
       </section>
 
       {/* Blog post */}
-      <section>
+      <section className="mb-[101px]">
         <Blog />
       </section>
 
-      <section>{/* Footer */}</section>
+      {/* Footer */}
+      <section className="">
+        <Footer />
+      </section>
     </main>
   );
 }
