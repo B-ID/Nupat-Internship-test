@@ -17,7 +17,7 @@ export default function Transport({}: Props) {
       <p className="text-center text-4xl mb-9 text-heading font-bold">
         Transporting Across The World
       </p>
-      <div className="flex justify-center space-x-4">
+      <div className="flex justify-center space-x-4 overflow-x-auto">
         {transportData.map((data: ITransportData) => (
           <TransportCard data={data} />
         ))}

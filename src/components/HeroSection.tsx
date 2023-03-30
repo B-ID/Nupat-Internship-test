@@ -12,11 +12,11 @@ type Props = {};
 export default function HeroSection({}: Props) {
   return (
     // Home
-    <div className="">
-      <div className="bg-primary2/25 absolute w-full z-10">
-        <div className="max-w-[1199.13px] mx-auto flex items-center justify-between">
+    <div className="relative">
+      <div className="absolute z-10 w-full bg-primary2/25">
+        <div className="mx-auto flex max-w-[1199.13px] items-center justify-between">
           {/* Header Links */}
-          <div className="text-white list-none flex items-center gap-4 ">
+          <div className="flex items-center gap-4 text-white list-none ">
             <li>
               <a href="" className="links">
                 Home
@@ -28,18 +28,18 @@ export default function HeroSection({}: Props) {
               </a>
             </li>
             <li>
-              <a href="" className="links flex items-center gap-2">
+              <a href="" className="flex items-center gap-2 links">
                 Pages
                 <ChevronDownIcon className="h-4" />
               </a>
             </li>
             <li>
-              <a href="" className="links">
+              <a href="#project" className="links">
                 Project
               </a>
             </li>
             <li>
-              <a href="" className="links">
+              <a href="#contact" className="links">
                 Contact
               </a>
             </li>
@@ -47,34 +47,34 @@ export default function HeroSection({}: Props) {
 
           {/* Socials */}
           <div className="flex items-center gap-4">
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 ">
               <img className="h-10" src={instagram} alt="instagram-icon" />
               <img className="h-8" src={facebook} alt="facebook-icon" />
               <img className="h-8" src={twitter} alt="twitter-icon" />
               <img className="h-8" src={linkedIn} alt="likedIn-icon" />
             </div>
-            <button className="font-medium p-4 bg-white text-headeing transition hover:bg-primary1">
+            <button className="p-4 font-medium transition bg-white text-headeing hover:bg-primary1">
               Request Qoute
             </button>
           </div>
         </div>
       </div>
-      <div className="h-[875px] relative">
+      <div className="relative h-[875px]">
         <img
-          className="w-full h-full object-cover"
+          className="object-cover w-full h-full"
           src={heroImg}
           alt="hero-img"
         />
         {/* Hero Description */}
-        <div className="absolute top-56 w-full z-20">
-          <div className="text-white max-w-[1199.13px] mx-auto">
+        <div className="absolute z-20 w-full top-56">
+          <div className="mx-auto max-w-[1199.13px] text-white">
             <SectionTitle textColor="text-white" background="bg-primary2/25">
               Logistics & Supply Chain Solutions
             </SectionTitle>
-            <h1 className="text-6xl font-bold leading-[71px] mb-2">
+            <h1 className="mb-2 text-6xl font-bold leading-[71px]">
               Your Gateway <br /> to any Destination <br /> in the World
             </h1>
-            <p className="text-white mb-4">
+            <p className="mb-4 text-white">
               In augue ligula, feugiat ut nulla consequat. Ut est lacus,
               molestie in arcu <br /> no, iaculis vehicula ipsum. Nunc faucibus,
               nisl id dapibus finibus, enim <br /> diam interdum nulla, sed

@@ -1,4 +1,7 @@
 import About from "./components/About";
+import ContactUs from "./components/ContactUs";
+import ExpertTeam from "./components/ExpertTeam";
+import Features from "./components/Features";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
@@ -7,7 +10,7 @@ import Transport from "./components/Transport";
 
 function App() {
   return (
-    <main>
+    <main className="subpixel-antialiased max-w-[1920px] mx-auto">
       {/* Navbar */}
       <section id="home" className="">
         <Header />
@@ -24,12 +27,12 @@ function App() {
       </section>
 
       {/* Services */}
-      <section id="services" className="mb-24">
+      <section id="services" className="mb-12">
         <Services />
       </section>
 
       {/* Transport accross the world */}
-      <section className="mb-[101px]">
+      <section id="project" className="mb-[101px] pt-12">
         <Transport />
       </section>
 
@@ -38,11 +41,20 @@ function App() {
         <Testimonial />
       </section>
 
-      <section>{/* Why choose TransitFlow */}</section>
+      {/* Why choose TransitFlow */}
+      <section className="mb-[96px]">
+        <Features />
+      </section>
 
-      <section>{/* Meet expert team */}</section>
+      {/* Meet expert team */}
+      <section id="expert" className="mb-[101px]">
+        <ExpertTeam />
+      </section>
 
-      <section>{/* Contact us */}</section>
+      {/* Contact us */}
+      <section id="contact" className="mb-[101px]">
+        <ContactUs />
+      </section>
 
       <section>{/* Blog post */}</section>
 

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 @layer components {
     .links {
         @apply py-4 border-white hover:border-b-2 transition
@@ -15,6 +19,9 @@
     } */
     .secondary-gradient {
         @apply bg-gradient-to-t from-[#091242] 
+    }
+    .form-input {
+        @apply bg-transparent outline-none pl-4 p-2 border border-paragraph focus:border-white transition
     }
     
 }

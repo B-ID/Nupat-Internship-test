@@ -21,7 +21,7 @@ export default function Services({}: Props) {
 
       {/* Service content */}
       <div className="max-w-[1199.13px] bg-white mx-auto -mt-32 relative z-20 ">
-        <div className="pt-[120px] px-[86px] border-2 border-black">
+        <div className="pt-[120px] px-[86px]  ">
           <div className="flex items-start">
             <div className="basis-1/2">
               <SectionTitle background="bg-[#f3f3f3]" textColor="text-heading">
