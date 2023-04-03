@@ -1,4 +1,4 @@
-import heroImg from "../assets/images/heroImg.png";
+import heroImg from "../assets/Images/heroImg.png";
 import instagram from "../assets/icons/instagram.svg";
 import twitter from "../assets/icons/twitter.svg";
 import facebook from "../assets/icons/facebook.svg";
