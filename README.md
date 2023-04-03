@@ -1,7 +1,7 @@
 # Nupat-Internship-test
 
 TranisiFlow is a global travel logisitics company.<br />
-Deployment Link: [TransitFlow Vercel Link](https://nupat-internship-test-u14f.vercel.app/)
+Deployment Link: [TransitFlow Vercel Link](https://nupat-internship-test-6g2i.vercel.app/)
 
 Tools used
 1. React
