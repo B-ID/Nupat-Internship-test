@@ -13,15 +13,15 @@ export default function AboutItem({data}: Props) {
     const {Icon, title, content} = data
   return (
     <div className="flex">
-      <div className="border-r-2 p-4">
-        <div className="h-10 aspect-square">
+      <div className="p-4 border-r-2">
+        <div className="w-12 h-10">
         <img 
-        className="w-full h-full object-cover"
+        className="object-contain w-full h-full "
         src={Icon} alt="" />
         </div>
       </div>
       <div className="p-4">
-        <h3 className="text-2xl mb-2 font-medium text-primary2">{title}</h3>
+        <h3 className="mb-2 text-2xl font-medium text-primary2">{title}</h3>
         <p className="text-paragraph">{content}</p>
       </div>
     </div>
