@@ -26,8 +26,8 @@ export default function About({}: Props) {
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-x-4 gap-y-8">
-        {aboutData.map((data: any) => (
-            <AboutItem data={data}/>
+        {aboutData.map((data: any, i) => (
+            <AboutItem key={`about/${i}`} data={data}/>
         ))}
 
       </div>

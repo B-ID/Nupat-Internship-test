@@ -11,8 +11,8 @@ export default function Features({}: Props) {
     <div className="flex h-[897px]">
       {/* left */}
       <div className="relative hidden lg:inline-flex basis-1/2 bg-primary2 ">
-        <div className="absolute left-0 md:left-[50px] xl:left-[140px] top-[142px] z-10 h-[329px] w-[153px] xl:h-[618px] xl:w-[925px]">
-        {/* <div className="absolute left-0" > */}
+        {/* <div className="absolute left-0 md:left-[50px] xl:left-[140px] top-[142px] z-10 h-[329px] w-[153px] xl:h-[618px] xl:w-[925px]"> */}
+        <div className="absolute z-30  md:h-[418px] md:[925px] md:top-[140px] md:left-[150px]  2xl:h-[618px] 2xl:w-[925px]   2xl:left-[150px] 2xl:top-[140px]" >
           <img
             className="object-cover w-full h-full"
             src={airplaneImg}
@@ -40,8 +40,8 @@ export default function Features({}: Props) {
             proposition
           </p>
           <div className="grid grid-cols-2 gap-y-4">
-            {featuresData.map((data) => (
-              <div className="flex items-center gap-4">
+            {featuresData.map((data, i) => (
+              <div key={`features/${i}`} className="flex items-center gap-4">
                 <div>
                   <img src={data.Icon} alt="" />
                 </div>

@@ -14,12 +14,12 @@ export interface ITransportData {
 export default function Transport({}: Props) {
   return (
     <div>
-      <p className="text-center text-4xl mb-9 text-heading font-bold">
+      <p className="text-4xl font-bold text-center mb-9 text-heading">
         Transporting Across The World
       </p>
       <div className="flex justify-center space-x-4 overflow-x-auto">
-        {transportData.map((data: ITransportData) => (
-          <TransportCard data={data} />
+        {transportData.map((data: ITransportData, i) => (
+          <TransportCard key={`transport/${i}`} data={data} />
         ))}
       </div>
       <div className="h-[400px] grid place-items-center primary-gradient -mt-24">
